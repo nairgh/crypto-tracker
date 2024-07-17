@@ -1,38 +1,75 @@
+body {
+  padding: 0;
+  margin: 0 ;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  height:auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
+  font-size: 14px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+h2 {
+  font-size: 25px;
+  color: forestgreen
+}
+.header-nav {
+  background-color: #AAA;
+  width: 100%;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+input {
+  width: 250px;
+  height:35px;
+  border-radius: 10px;
+  outline:none;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: 2px solid #AAA;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+	border-collapse: collapse;
+  font-family: Tahoma, Geneva, sans-serif;
 }
+table td {
+	padding: 15px;
+}
+table thead tr th {
+	background-color: #63b186;
+	color: #f1ecec;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+  padding: 10px 20px
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #f0ecec;
+}
+.rank {
+  text-align: center;
+  font-weight: bold;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+}
+.symbol {
+  text-align: center;
+ }
+ img {
+  width: 40px;
+ }
