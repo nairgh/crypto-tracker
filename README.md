@@ -3,6 +3,8 @@
 <a href="https://viewcryptostatus.netlify.app/">View the App </a>
 <br>
 
+![crypto](https://github.com/user-attachments/assets/ac093158-a119-40d9-bcd8-910fa978cf38)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
